@@ -1,0 +1,51 @@
+{
+    "@@locale":"nl",
+    "appTitle": "Amare Weeëntimer",
+    "welcomeMessage": "Welkom bij de Amare Weeëntimer App!",
+    "menuDisclaimer": "Disclaimer",
+    "disclaimerText": "Deze app is een hulpmiddel voor het bijhouden van je weeën. Raadpleeg altijd een zorgverlener voor medisch advies.",
+    "menuBel": "Bel Instructies",
+    "menuTimer": "Weeëntimer",
+    "belIntroTitle": "Als de bevalling is begonnen",
+    "belIntroText": "Je mag bellen als je denkt dat de bevalling is begonnen. Soms kan het zijn dat je twijfelt, bijvoorbeeld bij onregelmatige weeën of harde buiken. Belangrijk is dat je belt als je ons nodig hebt. Daar zijn geen vaste regels voor. Hieronder staat wanneer je ons zeker moet bellen:",
+    "belFirstPregnancy": "Bij een eerste bevalling: als je een uur lang weeën hebt om de 4 minuten en elke wee duurt ongeveer 1 minuut.",
+    "belSecondPregnancy": "Bij een tweede of volgende bevalling: als je een uur lang weeën hebt om de 5 tot 6 minuten, en elke wee duurt ongeveer 1 minuut.",
+    "belWatersTitle": "Als de vliezen breken (en je hebt nog geen weeën)",
+    "belClearWaters": "Bij helder vruchtwater (roze of melkachtig) mag je overdag bellen. Breken je vliezen ’s nachts, wacht dan tot de ochtend. Of bel ons wanneer je ook weeën krijgt.",
+    "belGreenWaters": "Bij groen of bruin vruchtwater bel je ons direct, ook ’s nachts. Als het hoofdje nog niet ingedaald is en je vliezen breken, ga dan liggen en bel ons direct.",
+    "belWorryTitle": "Ongerustheid",
+    "belWorryText": "Bij zorgen mag je ons altijd bellen.",
+    "selectBirthTypeTitle": "Soort Bevalling",
+    "selectBirthTypeMessage": "Kies het type bevalling dat van toepassing is",
+    "firstBirthButton": "Eerste bevalling",
+    "subsequentBirthButton": "Al eerder bevallen",
+    "gapText": "Tijd tussen weeën {time}",
+    "weeListText": "Wee {number} - {weeTijd}",
+    "startButton": "Start Wee",
+    "resetButton": "Reset",
+    "recordLapButton": "Stop Wee",
+    "weeMessage": "Bel de Verloskundige!",
+    "menuContact": "Bel de Praktijk",
+    
+    "@weeListText": {
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      },
+      "weeTijd":{
+        "type": "String",
+        "example": "00:32" 
+      }
+    }
+  },
+  "@gapText": {
+    "description": "A gap list item showing number and duration",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "00:32"
+      }
+    }
+  }
+}

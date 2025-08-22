@@ -1,0 +1,52 @@
+name: weeentimerapp
+description: De Amare Verloskundige App
+publish_to: 'none' # privé project, niet publiceren
+
+version: 0.9.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+   sdk: flutter
+  
+
+  url_launcher: ^6.0.20
+  # Voor meertaligheid (zit in de Flutter SDK)
+  flutter_localizations:
+   sdk: flutter
+
+  # Voor datum/tijd en vertalingen
+  intl: ^0.20.2
+
+  # eventueel je andere dependencies:
+  cupertino_icons: ^1.0.6
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/images/amare-1920w.jpeg" 
+ 
+
+dev_dependencies:
+  flutter_launcher_icons: "0.11.0"
+  flutter_test:
+   sdk: flutter
+  flutter_lints: ^3.0.0
+flutter_gen:
+    version: ^6.0.0
+    build_runner: ^2.3.0
+flutter:
+   uses-material-design: true
+   generate: true
+   assets:
+    - assets/images/
+    - assets/images/flags/
+
+fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: Inter
+      fonts:

@@ -1,0 +1,54 @@
+{
+    "@@locale":"en",
+    "appTitle": "Amare Contraction Timer",
+    "welcomeMessage": "Welcome to the Amare Contraction Timer App!",
+    "menuDisclaimer": "Disclaimer",
+    "disclaimerText": "This app is a tool for tracking your contractions. Always consult a healthcare provider for medical advice.",
+    "menuBel": "Call Instructions",
+    "menuTimer": "Contraction Timer",
+    "belIntroTitle": "When labor has started",
+    "belIntroText": "You may call us if you think labor has started. Sometimes you may doubt, for example with irregular contractions or Braxton Hicks. The important thing is that you call us if you need us. There are no strict rules. Below is when you should definitely call:",
+    "belFirstPregnancy": "For a first pregnancy: if you have contractions every 4 minutes for an hour and each contraction lasts about 1 minute.",
+    "belSecondPregnancy": "For a second or later pregnancy: if you have contractions every 5–6 minutes for an hour and each contraction lasts about 1 minute.",
+    "belWatersTitle": "When your waters break (without contractions)",
+    "belClearWaters": "If the water is clear (pink or milky) you may call during the day. If it happens at night, wait until the morning — unless contractions start.",
+    "belGreenWaters": "If the water is green or brown, call us immediately, even at night. If the baby’s head has not descended yet and your waters break, lie down and call us immediately.",
+    "belWorryTitle": "Concerns",
+    "belWorryText": "If you are worried, you may always call us.",
+    "selectBirthTypeTitle": "Birthtype",
+    "selectBirthTypeMessage": "Please select the type of birth",
+    "firstBirthButton": "First Birth",
+    "subsequentBirthButton": "Has had a birth before",
+    "gapText": "Time between contractions  {time}",
+    "startButton": "Start Contraction",
+    "resetButton": "Reset",
+    "recordLapButton": "End Contraction",
+    "weeMessage": "Call the Midwife!",
+    "menuContact": "Call the Practice",
+    "weeListText": "Contraction {number} - {weeTijd}",
+  
+  "@weeListText": {
+    "description": "A contraction list item showing number and duration",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      },
+      "weeTijd":{
+        "type": "String",
+        "example": "00:32" 
+      }
+    }
+  },
+  "@gapText": {
+    "description": "A gap list item showing number and duration",
+    "placeholders": {
+      "time":{
+        "type": "String",
+        "example": "00:32"
+      }
+    }
+  }
+}
+
+
